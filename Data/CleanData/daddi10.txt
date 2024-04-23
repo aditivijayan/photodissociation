@@ -1,0 +1,9 @@
+# linear
+#     S_gas        S_SFR      S_gas_tdyn.       Galaxy Type                      Re_kpc               #trot (Myr)
+# I use 0.20dex 0.17dex error for the logs (typical value; differential estimates are difficult)
+       890.3       1.196        12.9			Intermediate                  3.7              90.0
+       915.3       1.559       21.81			Intermediate                  6.2              170.0
+       363.8      0.9397       5.323			Intermediate                  5.1              340.0
+       452.9        1.06       4.333			Intermediate                  4.7              130.0
+         337      0.9122       2.412			Intermediate                  4.5              90.0
+       758.3       1.117       4.259			Intermediate                  3.0              210.0

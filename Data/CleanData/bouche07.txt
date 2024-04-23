@@ -1,0 +1,15 @@
+#   S_gas            S_SFR  S_gas_tdyn GalaxyType
+# both are log
+2.9  1.1   1.9			   Starburst
+3.1  1.2   2.25			   Starburst
+3.25 1.15 2.25			   Starburst
+3.45 1.1  2.8			   Starburst
+2.3  1.4   1.55			   Starburst
+3.45 1.7  2.7			   Starburst
+3.3  1.8   2.6			   Starburst
+3.65 1.8  3.05			   Starburst
+3.35 2.0  2.9			   Starburst
+3.70 1.95 3.05			   Starburst
+3.2  2.1   2.45			   Starburst
+3.7  2.6   3.45			   Starburst
+4.0  2.7   3.85			   Starburst

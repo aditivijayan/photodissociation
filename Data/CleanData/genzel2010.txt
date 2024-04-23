@@ -1,0 +1,12 @@
+# logsigmagas   log sigmasfr  log sigmagastdyn       GalaxyType         R1/2     log_torb(Myr)    vc(km/s)
+2.69                -0.68          1.15              Intermediate       5.5          2.34             157
+2.73    	            0.84   	    1.80          	    Starburst      5.1          1.73             590  
+3.63        		   1.83          2.96          	    Starburst      1.4          1.47             295  
+2.76  			   1.04    	    1.94          	    Starburst      3.1          1.62             457
+4.10  			   2.20          3.78          	    Starburst      0.9          1.12             442
+2.68  			   0.63    	    1.61          	    Starburst      4.1          1.87             343
+2.83  			   1.01    	    1.89          	    Starburst      2.8          1.74             317  
+3.09  			   1.09          2.26          	    Starburst      3.0          1.63             430
+3.28  			   1.29		    2.52          	    Starburst      2.0          1.56             346
+3.52  			   1.37   	    2.86          	    Starburst      2.4          1.46             523
+4.39  			   2.44  	    4.26          	    Starburst      0.8          0.0              590   

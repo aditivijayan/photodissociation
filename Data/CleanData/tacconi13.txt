@@ -1,0 +1,20 @@
+#          Ta_gas  Ta_sfr Ta_gas_dyn.   GalaxyType
+#  all are log
+# I use 0.30dex 0.20dex error for the error logs in S_gas and S_sfr
+#
+             2.85  -0.2771    0.8279		Intermediate
+             2.153  -0.718   -0.1725		Intermediate
+           2.462    -0.5678   0.4317		Intermediate
+            2.297 -0.6061    0.01277		Intermediate
+            1.867   -0.5232  -0.3386		Intermediate
+            2.804  -0.2471    0.6852		Intermediate
+           1.832  -0.8161    -0.7522		Intermediate
+            2.441  -0.1692      0.11		Intermediate
+            2.073  -0.6174  -0.04887		Intermediate
+             3.42   0.4115     1.755		Intermediate
+            2.192  -0.595   -0.08613		Intermediate
+            2.873  -0.1804    0.5854		Intermediate
+            3.202  0.1576      1.384		Intermediate
+           2.009   -0.6577  -0.08198		Intermediate
+           2.449   -0.4863    0.3574		Intermediate
+           3.149    0.02574    1.355		Intermediate

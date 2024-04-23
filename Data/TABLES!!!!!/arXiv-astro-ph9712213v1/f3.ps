@@ -1,0 +1,254 @@
+%!PS
+/devppi 300 def
+/userppi 72 def
+/pagewidth 8.5 def
+/devpixtouser { userppi mul devppi div } def
+/pagetolandscape 90 def
+/setcoords { pagewidth userppi mul 0 translate
+    pagetolandscape rotate 1 devpixtouser 1 devpixtouser scale } def
+/setjoins { 1 setlinejoin 1 setlinecap } def
+erasepage initgraphics setcoords setjoins
+/getpoint {
+	currentfile read pop 8#77 and 6 bitshift
+	currentfile read pop 8#77 and or
+	currentfile read pop 8#77 and 6 bitshift
+	currentfile read pop 8#77 and or
+	} def
+/m { getpoint moveto } def
+/d { getpoint lineto } def
+02 setlinewidth
+02 setlinewidth
+m JrHu d hfHu m JrHu d JrIS m MKHu d MKID m OdHu d OdID m Q|Hu d Q|ID
+m TUHu d TUID m VnHu d VnIS m YFHu d YFID m [_Hu d [_ID m ]xHu d ]xID
+m `PHu d `PID m biHu d biIS m eAHu d eAID m gZHu d gZID m JqH[ d JkHY
+m JkHY d JgHS m JgHS d JeHJ m JeHJ d JeHD m JeHD d JgG{ m JgG{ d JkGu
+m JkGu d JqGs m JqGs d JtGs m JtGs d JzGu m JzGu d J~G{ m J~G{ d K@HD
+m K@HD d K@HJ m K@HJ d J~HS m J~HS d JzHY m JzHY d JtH[ m JtH[ d JqH[
+m JqH[ d JmHY m JmHY d JkHW m JkHW d JiHS m JiHS d JgHJ m JgHJ d JgHD
+m JgHD d JiG{ m JiG{ d JkGw m JkGw d JmGu m JmGu d JqGs m JtGs d JxGu
+m JxGu d JzGw m JzGw d J|G{ m J|G{ d J~HD m J~HD d J~HJ m J~HJ d J|HS
+m J|HS d JzHW m JzHW d JxHY m JxHY d JtH[ m VfHS d VjHU m VjHU d VoH[
+m VoH[ d VoGs m VnHY d VnGs m VfGs d VwGs m b]HS d b_HQ m b_HQ d b]HO
+m b]HO d b\HQ m b\HQ d b\HS m b\HS d b]HW m b]HW d b_HY m b_HY d beH[
+m beH[ d bmH[ m bmH[ d brHY m brHY d btHW m btHW d bvHS m bvHS d bvHO
+m bvHO d btHL m btHL d boHH m boHH d beHD m beHD d baHB m baHB d b]G?
+m b]G? d b\Gy m b\Gy d b\Gs m bmH[ d bpHY m bpHY d brHW m brHW d btHS
+m btHS d btHO m btHO d brHL m brHL d bmHH m bmHH d beHD m b\Gw d b]Gy
+m b]Gy d baGy m baGy d bkGu m bkGu d bpGu m bpGu d btGw m btGw d bvGy
+m baGy d bkGs m bkGs d brGs m brGs d btGu m btGu d bvGy m bvGy d bvG}
+m Jr_I d hf_I m Jr_I d Jr^l m MK_I d MK^{ m Od_I d Od^{ m Q|_I d Q|^{
+m TU_I d TU^{ m Vn_I d Vn^l m YF_I d YF^{ m [__I d [_^{ m ]x_I d ]x^{
+m `P_I d `P^{ m bi_I d bi^l m eA_I d eA^{ m gZ_I d gZ^{ m JrHu d Jr_I
+m JrHu d KZHu m JrIe d KFIe m JrJU d KFJU m JrKD d KFKD m JrKt d KFKt
+m JrLc d KZLc m JrMS d KFMS m JrNC d KFNC m JrNr d KFNr m JrOb d KFOb
+m JrPQ d KZPQ m JrQA d KFQA m JrQq d KFQq m JrR` d KFR` m JrSP d KFSP
+m JrS? d KZS? m JrTo d KFTo m JrU_ d KFU_ m JrVN d KFVN m JrV~ d KFV~
+m JrWm d KZWm m JrX] d KFX] m JrYM d KFYM m JrY| d KFY| m JrZl d KFZl
+m Jr[[ d KZ[[ m Jr\K d KF\K m Jr\{ d KF\{ m Jr]j d KF]j m Jr^Z d KF^Z
+m Jr_I d KZ_I m H}Hu d I_Hu m JAIF d I?ID m I?ID d JAIC m JAIC d JCID
+m JCID d JCIF m JCIF d JAIJ m JAIJ d I}IL m I}IL d IxIL m IxIL d IrIJ
+m IrIJ d InIF m InIF d IlIC m IlIC d IkH{ m IkH{ d IkHp m IkHp d IlHj
+m IlHj d IpHg m IpHg d IvHe m IvHe d IzHe m IzHe d I?Hg m I?Hg d JCHj
+m JCHj d JEHp m JEHp d JEHr m JEHr d JCHw m JCHw d I?H{ m I?H{ d IzH}
+m IzH} d IxH} m IxH} d IrH{ m IrH{ d InHw m InHw d IlHr m IxIL d ItIJ
+m ItIJ d IpIF m IpIF d InIC m InIC d IlH{ m IlH{ d IlHp m IlHp d InHj
+m InHj d IrHg m IrHg d IvHe m IzHe d I}Hg m I}Hg d JAHj m JAHj d JCHp
+m JCHp d JCHr m JCHr d JAHw m JAHw d I}H{ m I}H{ d IzH} m H}Lc d I_Lc
+m InLz d IkLg m IkLg d InLi m InLi d ItLk m ItLk d IzLk m IzLk d I?Li
+m I?Li d JCLe m JCLe d JEL` m JEL` d JEL^ m JEL^ d JCLX m JCLX d I?LU
+m I?LU d IzLS m IzLS d ItLS m ItLS d InLU m InLU d IlLV m IlLV d IkLZ
+m IkLZ d IkL\ m IkL\ d IlL^ m IlL^ d InL\ m InL\ d IlLZ m IzLk d I}Li
+m I}Li d JALe m JALe d JCL` m JCL` d JCL^ m JCL^ d JALX m JALX d I}LU
+m I}LU d IzLS m InLz d JALz m InLx d IxLx m IxLx d JALz m H}PQ d I_PQ
+m I|Pd d I|PA m I}Ph d I}PA m I}Ph d IiPL m IiPL d JGPL m IvPA d JCPA
+m H}S? d I_S? m IlTP d InTN m InTN d IlTM m IlTM d IkTN m IkTN d IkTP
+m IkTP d InTT m InTT d ItTV m ItTV d I|TV m I|TV d JATT m JATT d JCTP
+m JCTP d JCTK m JCTK d JATG m JATG d I|TE m I|TE d IvTE m I|TV d I?TT
+m I?TT d JATP m JATP d JATK m JATK d I?TG m I?TG d I|TE m I|TE d I?TC
+m I?TC d JCS? m JCS? d JES| m JES| d JESv m JESv d JCSr m JCSr d JASq
+m JASq d I|So m I|So d ItSo m ItSo d InSq m InSq d IlSr m IlSr d IkSv
+m IkSv d IkSx m IkSx d IlSz m IlSz d InSx m InSx d IlSv m JATA d JCS|
+m JCS| d JCSv m JCSv d JASr m JASr d I?Sq m I?Sq d I|So m H}Wm d I_Wm
+m IlW| d InWz m InWz d IlWy m IlWy d IkWz m IkWz d IkW| m IkW| d IlX@
+m IlX@ d InXB m InXB d ItXD m ItXD d I|XD m I|XD d JAXB m JAXB d JCX@
+m JCX@ d JEW| m JEW| d JEWy m JEWy d JCWu m JCWu d I}Wq m I}Wq d ItWm
+m ItWm d IpWl m IpWl d IlWh m IlWh d IkWb m IkWb d IkW] m I|XD d I?XB
+m I?XB d JAX@ m JAX@ d JCW| m JCW| d JCWy m JCWy d JAWu m JAWu d I|Wq
+m I|Wq d ItWm m IkW` d IlWb m IlWb d IpWb m IpWb d IzW_ m IzW_ d I?W_
+m I?W_ d JCW` m JCW` d JEWb m IpWb d IzW] m IzW] d JAW] m JAW] d JCW_
+m JCW_ d JEWb m JEWb d JEWf m H}[[ d I_[[ m Ip[j d It[l m It[l d Iz[r
+m Iz[r d Iz[K m Ix[p d Ix[K m Ip[K d JA[K m Iv_` d Ip_^ m Ip_^ d Il_X
+m Il_X d Ik_O m Ik_O d Ik_I m Ik_I d Il_@ m Il_@ d Ip^{ m Ip^{ d Iv^y
+m Iv^y d Iz^y m Iz^y d I?^{ m I?^{ d JC_@ m JC_@ d JE_I m JE_I d JE_O
+m JE_O d JC_X m JC_X d I?_^ m I?_^ d Iz_` m Iz_` d Iv_` m Iv_` d Ir_^
+m Ir_^ d Ip_\ m Ip_\ d In_X m In_X d Il_O m Il_O d Il_I m Il_I d In_@
+m In_@ d Ip^| m Ip^| d Ir^{ m Ir^{ d Iv^y m Iz^y d I}^{ m I}^{ d I?^|
+m I?^| d JA_@ m JA_@ d JC_I m JC_I d JC_O m JC_O d JA_X m JA_X d I?_\
+m I?_\ d I}_^ m I}_^ d Iz_` m hfHu d hf_I m hfHu d g?Hu m hfIe d hSIe
+m hfJU d hSJU m hfKD d hSKD m hfKt d hSKt m hfLc d g?Lc m hfMS d hSMS
+m hfNC d hSNC m hfNr d hSNr m hfOb d hSOb m hfPQ d g?PQ m hfQA d hSQA
+m hfQq d hSQq m hfR` d hSR` m hfSP d hSSP m hfS? d g?S? m hfTo d hSTo
+m hfU_ d hSU_ m hfVN d hSVN m hfV~ d hSV~ m hfWm d g?Wm m hfX] d hSX]
+m hfYM d hSYM m hfY| d hSY| m hfZl d hSZl m hf[[ d g?[[ m hf\K d hS\K
+m hf\{ d hS\{ m hf]j d hS]j m hf^Z d hS^Z m hf_I d g?_I m TnGA d TnFZ
+m TpGA d TpFZ m ThGA d TuGA m ThFZ d UEFZ m UEFZ d UEFc m UEFc d UCFZ
+m UYFt d UTFr m UTFr d UPFo m UPFo d UNFi m UNFi d UNFe m UNFe d UPF`
+m UPF` d UTF\ m UTF\ d UYFZ m UYFZ d U]FZ m U]FZ d UcF\ m UcF\ d UgF`
+m UgF` d UiFe m UiFe d UiFi m UiFi d UgFo m UgFo d UcFr m UcFr d U]Ft
+m U]Ft d UYFt m UYFt d UVFr m UVFr d URFo m URFo d UPFi m UPFi d UPFe
+m UPFe d URF` m URF` d UVF\ m UVF\ d UYFZ m U]FZ d UaF\ m UaF\ d UeF`
+m UeF` d UgFe m UgFe d UgFi m UgFi d UeFo m UeFo d UaFr m UaFr d U]Ft
+m U?Ft d U{Fr m U{Fr d UzFp m UzFp d UxFm m UxFm d UxFi m UxFi d UzFe
+m UzFe d U{Fc m U{Fc d U?Fb m U?Fb d VCFb m VCFb d VGFc m VGFc d VIFe
+m VIFe d VKFi m VKFi d VKFm m VKFm d VIFp m VIFp d VGFr m VGFr d VCFt
+m VCFt d U?Ft m U{Fr d UzFo m UzFo d UzFg m UzFg d U{Fc m VGFc d VIFg
+m VIFg d VIFo m VIFo d VGFr m VIFp d VKFr m VKFr d VNFt m VNFt d VNFr
+m VNFr d VKFr m UzFe d UxFc m UxFc d UvF` m UvF` d UvF^ m UvF^ d UxFZ
+m UxFZ d U}FX m U}FX d VGFX m VGFX d VLFV m VLFV d VNFU m UvF^ d UxF\
+m UxF\ d U}FZ m U}FZ d VGFZ m VGFZ d VLFX m VLFX d VNFU m VNFU d VNFS
+m VNFS d VLFO m VLFO d VGFM m VGFM d U{FM m U{FM d UvFO m UvFO d UtFS
+m UtFS d UtFU m UtFU d UvFX m UvFX d U{FZ m V|GA d WIFo m WIFo d VzFZ
+m VzGA d WGFo m VzGA d WTGA m WTGA d WVFz m WVFz d WSGA m V|F\ d WTF\
+m VzFZ d WTFZ m WTFZ d WVFb m WbFf d WbFO m WcFf d WcFO m WpFf d WpFO
+m WrFf d WrFO m W^Ff d WfFf m WmFf d WuFf m WcF[ d WpF[ m W^FO d WfFO
+m WmFO d WuFO m W}Ff d W}FO m W~Ff d W~FO m WzFf d XBFf m WzFO d XBFO
+m XQFc d XQFO m XGFY d X\FY m XeFf d XeFO m XfFf d XfFO m XsFf d XsFO
+m XuFf d XuFO m XaFf d XiFf m XpFf d XxFf m XfF[ d XsF[ m XaFO d XiFO
+m XpFO d XxFO m X?Fb d Y@Fa m Y@Fa d X?F` m X?F` d X~Fa m X~Fa d X~Fb
+m X~Fb d X?Fd m X?Fd d Y@Fe m Y@Fe d YCFf m YCFf d YHFf m YHFf d YKFe
+m YKFe d YLFd m YLFd d YNFb m YNFb d YNF` m YNF` d YLF] m YLF] d YIF[
+m YIF[ d YCFY m YCFY d YAFX m YAFX d X?FV m X?FV d X~FR m X~FR d X~FO
+m YHFf d YJFe m YJFe d YKFd m YKFd d YLFb m YLFb d YLF` m YLF` d YKF]
+m YKF] d YHF[ m YHF[ d YCFY m X~FQ d X?FR m X?FR d YAFR m YAFR d YGFP
+m YGFP d YJFP m YJFP d YLFQ m YLFQ d YNFR 
+stroke
+m YNFR m YAFR d YGFO m YGFO d YKFO m YKFO d YLFP m YLFP d YNFR m YNFR
+d YNFU m ZjGI d ZfGE m ZfGE d ZbF? m ZbF? d Z_Fx m Z_Fx d Z]Fo m Z]Fo
+d Z]Fg m Z]Fg d Z_F^ m Z_F^ d ZbFV m ZbFV d ZfFQ m ZfFQ d ZjFM m ZfGE
+d ZbF~ m ZbF~ d Z`Fx m Z`Fx d Z_Fo m Z_Fo d Z_Fg m Z_Fg d Z`F^ m Z`F^
+d ZbFX m ZbFX d ZfFQ m ZyGA d ZyFZ m Z{GA d [FF` m ZyGA d [FFZ m [TGA
+d [FFZ m [TGA d [TFZ m [VGA d [VFZ m ZsGA d Z{GA m [TGA d [[GA m ZsFZ
+d Z?FZ m [NFZ d [[FZ m [mFZ d [kFY m [kFY d [mFX m [mFX d [nFY m [nFY
+d [mFZ m [mFd d [hFc m [hFc d [fFb m [fFb d [dF` m [dF` d [bF] m [bF]
+d [aFY m [aFY d [bFU m [bFU d [dFR m [dFR d [fFP m [fFP d [hFO m [hFO
+d [mFN m [mFN d [qFO m [qFO d [sFP m [sFP d [vFR m [vFR d [wFU m [wFU
+d [xFY m [xFY d [wF] m [wF] d [vF` m [vF` d [sFb m [sFb d [qFc m [qFc
+d [mFd m \fFt d \fFM m \hFt d \hFM m \hFo d \kFr m \kFr d \oFt m \oFt
+d \sFt m \sFt d \yFr m \yFr d \}Fo m \}Fo d \~Fi m \~Fi d \~Fe m \~Fe
+d \}F` m \}F` d \yF\ m \yF\ d \sFZ m \sFZ d \oFZ m \oFZ d \kF\ m \kF\
+d \hF` m \sFt d \wFr m \wFr d \{Fo m \{Fo d \}Fi m \}Fi d \}Fe m \}Fe
+d \{F` m \{F` d \wF\ m \wF\ d \sFZ m \`Ft d \hFt m \`FM d \mFM m ]`Fo
+d ]_Fm m ]_Fm d ]`Fk m ]`Fk d ]bFm m ]bFm d ]bFo m ]bFo d ]_Fr m ]_Fr
+d ][Ft m ][Ft d ]UFt m ]UFt d ]OFr m ]OFr d ]LFo m ]LFo d ]JFi m ]JFi
+d ]JFe m ]JFe d ]LF` m ]LF` d ]OF\ m ]OF\ d ]UFZ m ]UFZ d ]YFZ m ]YFZ
+d ]_F\ m ]_F\ d ]bF` m ]UFt d ]QFr m ]QFr d ]NFo m ]NFo d ]LFi m ]LFi
+d ]LFe m ]LFe d ]NF` m ]NF` d ]QF\ m ]QF\ d ]UFZ m ]kGI d ^@GI m ^HGR
+d ^IGQ m ^IGQ d ^HGO m ^HGO d ^GGQ m ^GGQ d ^GGR m ^GGR d ^HGT m ^HGT
+d ^IGU m ^IGU d ^LGV m ^LGV d ^QGV m ^QGV d ^TGU m ^TGU d ^VGT m ^VGT
+d ^WGR m ^WGR d ^WGO m ^WGO d ^VGM m ^VGM d ^RGK m ^RGK d ^LGI m ^LGI
+d ^JGH m ^JGH d ^HGE m ^HGE d ^GGB m ^GGB d ^GF? m ^QGV d ^SGU m ^SGU
+d ^TGT m ^TGT d ^VGR m ^VGR d ^VGO m ^VGO d ^TGM m ^TGM d ^QGK m ^QGK
+d ^LGI m ^GGA d ^HGB m ^HGB d ^JGB m ^JGB d ^PG@ m ^PG@ d ^SG@ m ^SG@
+d ^VGA m ^VGA d ^WGB m ^JGB d ^PF? m ^PF? d ^TF? m ^TF? d ^VG@ m ^VG@
+d ^WGB m ^WGB d ^WGD m ^`GI d ^cGE m ^cGE d ^gF? m ^gF? d ^kFx m ^kFx
+d ^mFo m ^mFo d ^mFg m ^mFg d ^kF^ m ^kF^ d ^gFV m ^gFV d ^cFQ m ^cFQ
+d ^`FM m ^cGE d ^gF~ m ^gF~ d ^iFx m ^iFx d ^kFo m ^kFo d ^kFg m ^kFg
+d ^iF^ m ^iF^ d ^gFX m ^gFX d ^cFQ m GAM| d GiM| m GAM~ d GiM~ m GAMw
+d GAND m GiMw d GiNS m GiNS d G_NS m G_NS d GiNQ m GNNg d GPNb m GPNb
+d GTN^ m GTN^ d GZN\ m GZN\ d G]N\ m G]N\ d GcN^ m GcN^ d GgNb m GgNb
+d GiNg m GiNg d GiNk m GiNk d GgNq m GgNq d GcNt m GcNt d G]Nv m G]Nv
+d GZNv m GZNv d GTNt m GTNt d GPNq m GPNq d GNNk m GNNk d GNNg m GNNg
+d GPNd m GPNd d GTN` m GTN` d GZN^ m GZN^ d G]N^ m G]N^ d GcN` m GcN`
+d GgNd m GgNd d GiNg m GiNk d GgNo m GgNo d GcNr m GcNr d G]Nt m G]Nt
+d GZNt m GZNt d GTNr m GTNr d GPNo m GPNo d GNNk m GNOM d GPOI m GPOI
+d GROG m GROG d GVOE m GVOE d GZOE m GZOE d G]OG m G]OG d G_OI m G_OI
+d GaOM m GaOM d GaOP m GaOP d G_OT m G_OT d G]OV m G]OV d GZOX m GZOX
+d GVOX m GVOX d GROV m GROV d GPOT m GPOT d GNOP m GNOP d GNOM m GPOI
+d GTOG m GTOG d G\OG m G\OG d G_OI m G_OT d G\OV m G\OV d GTOV m GTOV
+d GPOT m GROV d GPOX m GPOX d GNO[ m GNO[ d GPO[ m GPO[ d GPOX m G]OG
+d G_OE m G_OE d GcOC m GcOC d GeOC m GeOC d GiOE m GiOE d GkOK m GkOK
+d GkOT m GkOT d GmOZ m GmOZ d GoO[ m GeOC d GgOE m GgOE d GiOK m GiOK
+d GiOT m GiOT d GkOZ m GkOZ d GoO[ m GoO[ d GpO[ m GpO[ d GtOZ m GtOZ
+d GvOT m GvOT d GvOI m GvOI d GtOC m GtOC d GpOA m GpOA d GoOA m GoOA
+d GkOC m GkOC d GiOI m GAPH d GTPU m GTPU d GiPF m GAPF d GTPS m GAPF
+d GAP` m GAP` d GIPb m GIPb d GAP_ m GgPH d GgP` m GiPF d GiP` m GiP`
+d GaPb m G_Pz d G\P{ m G\P{ d GaP{ m GaP{ d G_Pz m G_Pz d G]Py m G]Py
+d G\Pu m G\Pu d G\Pq m G\Pq d G]Pm m G]Pm d G`Pk m G`Pk d GbPk m GbPk
+d GdPl m GdPl d GePm m GePm d GgPp m GgPp d GiPv m GiPv d GjPy m GjPy
+d GlP{ m GbPk d GdPm m GdPm d GePp m GePp d GhPv m GhPv d GiPy m GiPy
+d GjPz m GjPz d GlP{ m GlP{ d GqP{ m GqP{ d GsPy m GsPy d GtPu m GtPu
+d GtPq m GtPq d GsPm m GsPm d GrPl m GrPl d GpPk m GpPk d GtPk m GtPk
+d GrPl m G\QD d GtQD m G\QE d GtQE m GcQL d GlQL m G\Q@ d G\QR m G\QR
+d GbQR m GbQR d G\QQ m GhQE d GhQL m GtQ@ d GtQH m G\QZ d GtQZ m G\Q[
+d GtQ[ m G\QW d G\Qd m G\Qd d G]Qh m G]Qh d G_Qi m G_Qi d GaQj m GaQj
+d GcQj m GcQj d GeQi m GeQi d GgQh m GgQh d GhQd m GhQd d GhQ[ m G\Qd
+d G]Qf m G]Qf d G_Qh m G_Qh d GaQi m GaQi d GcQi m GcQi d GeQh m GeQh
+d GgQf m GgQf d GhQd m GtQW d GtQ_ m GhQb d GrQf m GrQf d GtQi m GtQi
+d GtQk m GtQk d GrQl m GhQb d GjQd m GjQd d GtQi m FzSE d F}SA m F}SA
+d GCR} m GCR} d GKRz m GKRz d GTRx m GTRx d G\Rx m G\Rx d GeRz m GeRz
+d GmR} m GmR} d GrSA m GrSA d GvSE m F}SA d GER} m GER} d GKR{ m GKR{
+d GTRz m GTRz d G\Rz m G\Rz d GeR{ m GeR{ d GkR} m GkR} d GrSA m GAST
+d GiST m GASV d GcSa m GAST d GiSa m GASn d GiSa m GASn d GiSn m GASp
+d GiSp m GASN d GASV m GASn d GASu m GiSN d GiSY m GiSh d GiSu m GiTF
+d GjTE m GjTE d GkTF m GkTF d GjTG m GjTG d GiTF m G_TF d G`TB m G`TB
+d GaT@ m GaT@ d GcS} m GcS} d GeS| m GeS| d GjS{ m GjS{ d GoS| m GoS|
+d GqS} m GqS} d GsT@ m GsT@ d GtTB m GtTB d GuTF m GuTF d GtTK m GtTK
+d GsTM m GsTM d GqTO m GqTO d GoTP m GoTP d GjTR m GjTR d GeTP m GeTP
+d GcTO m GcTO d GaTM m GaTM d G`TK m G`TK d G_TF m GNT} d GiUH m GNT?
+d GeUH m GNUS d GiUH m GiUH d GpUD m GpUD d GtU@ m GtU@ d GvT} m GvT}
+d GvT{ m GvT{ d GtTy m GtTy d GrT{ m GrT{ d GtT} m GNTw d GNUD m GNUN
+d GNUY m GNUd d GiUd m GNUf d GiUf m GZUf d GTUh m GTUh d GPUk m GPUk
+d GNUo m GNUo d GNUu m GNUu d GPUw m GPUw d GRUw m GRUw d GTUu m GTUu
+d GRUs m GRUs d GPUu m GNU^ d GNUf m GiU^ d GiUk m FzU~ d FzVR m FpV\
+d FoV^ m FoV^ d FlVa m FlVa d GDVa m FmV` d GDV` m GDV\ d GDVf m GAWV
+d GiWV m GAWX d GiWX m GNWk d GaWX m GZWb d GiWm m GZW` d GiWk m GAWQ
+d GAWX m GNWe d GNWp m GiWQ d GiW^ m GiWe d GiWr m GNW? d GvW? m GNXA
+d GvXA m GTXA d GPXE m GPXE d GNXI m GNXI d GNXL m GNXL d GPXR m GPXR
+d GTXV m GTXV d GZXX m GZXX d G]XX m G]XX d GcXV m GcXV d GgXR m GgXR
+d GiXL m GiXL d GiXI m GiXI d GgXE m GgXE d GcXA m GNXL d GPXP m GPXP
+d GTXT m GTXT d GZXV m GZXV d G]XV m G]XV d GcXT m GcXT d GgXP m GgXP
+d GiXL m GNWz d GNXA m GvWz d GvXG m GTXy d GVXw m GVXw d GXXy m GXXy
+d GVX{ m GVX{ d GTX{ m GTX{ d GPXw m GPXw d GNXt m GNXt d GNXn m GNXn
+d GPXh m GPXh d GTXe m GTXe d GZXc m GZXc d G]Xc m G]Xc d GcXe m GcXe
+d GgXh m GgXh d GiXn m GiXn d GiXr m GiXr d GgXw m GgXw d GcX{ m GNXn
+d GPXj m GPXj d GTXf m GTXf d GZXe m GZXe d G]Xe m G]Xe d GcXf m GcXf
+d GgXj m GgXj d GiXn m FzYD d FzYX m FpY` d FrYa m FrYa d FsY` m FsY`
+d FrY_ m FrY_ d FpY_ m FpY_ d FnY` m FnY` d FmYa m FmYa d FlYd m FlYd
+d FlYi m FlYi d FmYl m FmYl d FnYm m FnYm d FpYn m FpYn d FsYn m FsYn
+d FuYm m FuYm d FwYj m FwYj d FzYd m FzYd d F{Yb m F{Yb d F}Y` m F}Y`
+d G@Y_ m G@Y_ d GDY_ m FlYi d FmYk m FmYk d FnYl m FnYl d FpYm m FpYm
+d FsYm m FsYm d FuYl m FuYl d FwYi m FwYi d FzYd m GAY_ d G@Y` m G@Y`
+d G@Yb m G@Yb d GCYh m GCYh d GCYk m GCYk d GAYm m GAYm d G@Yn m G@Yb
+d GDYh m GDYh d GDYl m GDYl d GCYm m GCYm d G@Yn m G@Yn d F~Yn m FzYw
+d F}Y{ m F}Y{ d GCY? m GCY? d GKZC m GKZC d GTZD m GTZD d G\ZD m G\ZD
+d GeZC m GeZC d GmY? m GmY? d GrY{ m GrY{ d GvYw m F}Y{ d GEY? m GEY?
+d GKZA m GKZA d GTZC m GTZC d G\ZC m G\ZC d GeZA m GeZA d GkY? m GkY?
+d GrY{ m TTXz d STOT d RiHu m SmYT d TEXd d SAW] d SAU~ d SAU~ d TjVU
+d UyUf 
+stroke
+m UyUf d U?Tv d UKTv d S\R? d RTHu m WsYd d WFXE d VXXE d T~Rj d T\PC
+d SlHu m [`YA d YZSU d WcVB d V]Tc d UcSY d T]Hu m _i[z d ZyXp d S\W]
+d S~WQ d V]W@ d WSVQ d UQTB d TLHu m dX[c d bDXL d \SWu d ZMWE d XOHu
+m db]} d bXYH d _FWQ d ]rXd d \qXL d ZyVy d YtVa d X]UZ d VzHu m \cZx
+d \qWy d \qXi d [MWJ d X}Wb d V~T{ d TwHu m `lZu d _FX~ d ZcWw d XSR[
+m [`Va d YtWQ d WSVI d VgUB d UcTf d SdHu m ^_[e d \SUh d ZMVp d X}W_
+d YZXO d X}Vp d XIUh d XIUh d VuUh d VNNd d UgHu m du[T d bgZ| d _`Ze
+d ^iZM d ]fYF d \SW~ d [rW~ d ZMTW d WSSR d VgHu m ^|\` d \cXp d YZX@
+d YZWX d V~Vf d S~Pi d RyHu m ^TYg d \cXw d ZcWX d XIUy d VYHu m `P[W
+d \bZu d YtX| d X}Wb d X]V@ d WSTa d URHu m YTHu d [vVd d _SZe d aMZ|
+d `AY] m SvSj d URVy d T]Vk d UZVB d VWW~ d VuX[ d XQX_ d X`Xg d \\Ys
+m QXHu d TUTR d WrUc d WcVt d ]hYg d ^VXz d bRYg d c^ZT d eo\I d _yZK
+d cW[H d bCZe d cfZY d alZ^ d c}[g d hf]U m P?Hu d SgV_ d YFWX d [vXg
+d ^NYF d `oZz m RXHu d T{Nw d XXWN d WcV\ d SoYM m R^Hu d T{TG d VnU\
+d YeXO d ]YZ^ d `gZK d cOZR m MmHu d OdQ^ d SIU@ d UaVZ d WLWL d XBWp
+d ZCYC d ZyYb d ZCY[ 
+stroke
+/Times-Roman findfont 24 scalefont setfont
+initmatrix
+-1 72 mul 300 div 1 72 mul 300 div scale
+-2409 88 translate
+1600 3150 moveto
+[1 0 0 -1 0 0] concat
+(NOAO/IRAF  robk@vega  Mon Dec 15 14:05:27 1997
+) show
+showpage

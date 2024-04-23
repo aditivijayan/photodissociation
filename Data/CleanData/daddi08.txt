@@ -1,0 +1,5 @@
+#       (lg(S_gas)) (lg(S_SFR)) (lg(S_gas_tdyn)) Galaxy Type
+#
+      2.392        -0.471      0.3107	 Intermediate
+      2.525        -0.3642      0.4436	 Intermediate
+      1.753  	   -1.272      -0.3291	 Intermediate
